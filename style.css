@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+  border-radius: 2px solid red;
+}
+.heading {
+  background-color: rgba(165, 42, 42, 0.244);
+  text-align: center;
+}
+#Addition {
+  width: 100px;
+  height: 60px;
+  border: 2px solid grey;
+  /* background-color: whitesmoke; */
+}
+#Substraction {
+  width: 100px;
+  height: 60px;
+  border: 2px solid grey;
+}
+#Calculation {
+  width: 100px;
+  height: 60px;
+  border: 2px solid grey;
+}
+#Addition,
+#Substraction,
+#Calculation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+#Addition:active,
+#Substraction:active {
+  background-color: skyblue;
+  color: grey;
+}
